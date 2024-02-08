@@ -179,7 +179,7 @@ function rollRandomEvent() {
     }
     else if (eventRng >= 10 && eventRng < 19) {
         let randomMoon = allMoons[getRandomInt(allMoons.length)];
-        randomEvent.innerHTML = `<hr class="eventhr">Unfortunately, due to a recent policy passed on ${randomMoon.name} regarding the unethical use of bio-fuel The Company will be limiting your transportation budget.<br/>We apologize for any inconveniences.<br/>You may travel to [2] moons of each tier this quota.<hr class="eventhr">`;
+        randomEvent.innerHTML = `<hr class="eventhr">Unfortunately, due to a recent policy passed on ${randomMoon.name} regarding the unethical use of bio-fuel The Company will be limiting your transportation budget.<br/>We apologize for any inconvenience.<br/>You may travel to [2] moons of each tier this quota.<hr class="eventhr">`;
         moonsPerCategory = 2;
         generateMoonList = true;
     }
