@@ -27,7 +27,7 @@ const polarus = new Moon("94-Polarus", 1, 410, 1);
 const amplify = new Moon("443-Amplify", 1, 260, 0);
 const celest = new Moon("28-Celest", 1, 380, 1);
 
-const intermediateMoons = [march, offense, ganimedes, atlantica, polarus, amplify, celest];
+const intermediateMoons = [march, offense, ganimedes, atlantica, amplify, celest];
 
 // hard
 const rend = new Moon("85-Rend", 2, 880, 1);
